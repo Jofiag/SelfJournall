@@ -2,6 +2,7 @@ package com.jofiagtech.selfjournall;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,8 +12,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     private EditText emailField;
     private EditText passwordField;
-    private Button signInButton;
-    private Button signUpButton;
+    private Button loginButton;
+    private Button createAccountButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         switch (v.getId()){
             case R.id.login_button:
             case R.id.create_account_button:
+                startCreteAccountActivity();
                 break;
         }
 
@@ -37,7 +39,15 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private void referenceLayoutField(){
         emailField = findViewById(R.id.user_email_edt);
         passwordField = findViewById(R.id.user_password_edt);
-        signInButton = findViewById(R.id.login_button);
-        signUpButton = findViewById(R.id.create_account_button);
+        loginButton = findViewById(R.id.login_button);
+        createAccountButton = findViewById(R.id.create_account_button);
+
+        loginButton.setOnClickListener(this);
+        createAccountButton.setOnClickListener(this);
+    }
+
+    private void startCreteAccountActivity(){
+        Intent intent = new Intent(LoginActivity.this, CreateAccountActivity.class);
+        startActivity(intent);
     }
 }
