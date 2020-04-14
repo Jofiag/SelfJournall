@@ -29,6 +29,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         switch (v.getId()){
             case R.id.login_button:
+                break;
             case R.id.create_account_button:
                 startCreteAccountActivity();
                 break;
