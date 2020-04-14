@@ -17,32 +17,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
-    <EditText
+    <AutoCompleteTextView
         android:id="@+id/user_email_edt"
         android:hint="@string/email_text"
+        android:maxLines="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="10dp"/>
 
     <EditText
         android:id="@+id/user_password_edt"
         android:hint="@string/password_text"
+        android:maxLines="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"/>
 
     <Button
-        android:id="@+id/sign_in_button"
-        android:text="@string/sign_in_text"
+        android:id="@+id/login_button"
+        android:text="@string/login_text"
         android:textColor="@android:color/holo_red_dark"
         android:background="@android:color/transparent"
         android:textSize="13sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/or_text"
+        android:text="@string/or_text"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
 
     <Button
-        android:id="@+id/sign_up_button"
-        android:text="@string/sign_up_text"
+        android:id="@+id/create_account_button"
+        android:text="@string/create_account_text"
         android:textColor="@android:color/holo_red_dark"
         android:background="@android:color/transparent"
         android:textSize="13sp"

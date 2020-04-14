@@ -8,4 +8,7 @@
     <string name="enter_button_text">Enter</string>
     <string name="sign_in_text">Sign in</string>
     <string name="sign_up_text">sign up</string>
+    <string name="or_text">Or</string>
+    <string name="login_text">Login</string>
+    <string name="create_account_text">create account</string>
 </resources>

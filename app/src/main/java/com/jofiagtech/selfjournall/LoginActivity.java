@@ -27,8 +27,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
 
         switch (v.getId()){
-            case R.id.sign_in_button:
-            case R.id.sign_up_button:
+            case R.id.login_button:
+            case R.id.create_account_button:
                 break;
         }
 
@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private void referenceLayoutField(){
         emailField = findViewById(R.id.user_email_edt);
         passwordField = findViewById(R.id.user_password_edt);
-        signInButton = findViewById(R.id.sign_in_button);
-        signUpButton = findViewById(R.id.sign_up_button);
+        signInButton = findViewById(R.id.login_button);
+        signUpButton = findViewById(R.id.create_account_button);
     }
 }
