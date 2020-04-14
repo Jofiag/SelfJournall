@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SelfJournall</string>
+    <string name="title_text">Self. Gratitude. Jounal</string>
+    <string name="what_are_you_grateful_for_today">What are you grateful for today?</string>
+    <string name="button_text">get started</string>
+    <string name="email_text">Enter your email</string>
+    <string name="password_text">Enter your password</string>
+    <string name="enter_button_text">Enter</string>
+    <string name="sign_in_text">Sign in</string>
+    <string name="sign_up_text">sign up</string>
 </resources>
