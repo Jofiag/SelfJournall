@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "893285393947",
+    "firebase_url": "https://selfjournall.firebaseio.com",
+    "project_id": "selfjournall",
+    "storage_bucket": "selfjournall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893285393947:android:5197640c656385c354babe",
+        "android_client_info": {
+          "package_name": "com.jofiagtech.selfjournall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893285393947-6ktio8e8ga6768nh71p5ki5l54ar0i4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR4OOmiCDoU2ERiFbLCSiVyzEyNSjLvlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893285393947-6ktio8e8ga6768nh71p5ki5l54ar0i4b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
